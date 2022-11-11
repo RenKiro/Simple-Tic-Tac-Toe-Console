@@ -49,8 +49,8 @@ def is_fully_occupied():
     return False
 
 def play():
-    player_one_score = 0
-    player_two_score = 0
+#     player_one_score = 0
+#     player_two_score = 0
     game_over = False
     is_win = False
 
