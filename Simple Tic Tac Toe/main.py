@@ -39,8 +39,12 @@ def is_occupied(board, letter):
     return True, None
 
 def is_fully_occupied():
-    nl = list(board.values())
-    if 'A' not in nl and 'B' not in nl and 'C' not in nl and 'D' not in nl and 'E' not in nl and 'F' not in nl and 'G' not in nl and 'H' not in nl and 'I' not in nl:
+    nl = board.values()
+    if ('A' not in nl and 'B' not in nl and 
+        'C' not in nl and 'D' not in nl and 
+        'E' not in nl and 'F' not in nl and 
+        'G' not in nl and 'H' not in nl and 
+        'I' not in nl):
         return True
     return False
 
