@@ -1,4 +1,5 @@
-import os, time
+import os
+import time
 from winner_verifier import check_winning_pattern
 
 
